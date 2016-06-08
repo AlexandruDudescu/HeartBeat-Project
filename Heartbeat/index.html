@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.0.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/signalr/jquery.signalr-2.2.0.min.js"></script>
+    <script src="/signalr/hubs"></script>
+   
+    <input id="heartBeatRate" type="number" placeholder="Enter heart beat rate..." />
+    <input id="date" type="text" placeholder="Enter date ..." />
+
+    <button id="publishHeartBeat">Publish post!</button>
+
+    <ul id="heartBeatList"></ul>
+
+    <script type="text/javascript">
+        $.ajax({
+            url: '/api/HeartBeat/GetAllHeartBeats',
+            method: 'GET',
+            dataType: 'JSON',
+            success: addHeartBeatsToList
+        });
+
+        function addHeartBeatsToList(heartBeats) {
+            $.each(heartBeats, function (index) {
+                var heartBeat = heartBeats[index];
+                addHeartBeat(heartBeat);
+            });
+        }
+        function addHeartBeat(heartBeat) {
+            $("#heartBeatList").prepend(
+                    '<li><b>' + heartBeat.HearBeatRate + ' BPM </b><br>' + heartBeat.SampleDate + '</li><br>'
+                 );
+        }
+
+        var hub = $.connection.heartBeatHub;
+        hub.client.publishPost = addHeartBeat;
+
+        $("#publishHeartBeat").click(function () {
+            var heartBeat = {
+                HearBeatRate: $("#heartBeatRate").val(),
+                SampleDate: $("#date").val()
+            };
+            $.ajax({
+                url: '/api/HeartBeat/AddNewHeartBeat',
+                method: 'POST',
+                dataType: 'json',
+                data: heartBeat
+            });
+        });
+
+        $.connection.hub.start();
+    </script>
+
+</body>
+</html>
