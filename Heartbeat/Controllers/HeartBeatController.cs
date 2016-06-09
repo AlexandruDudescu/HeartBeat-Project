@@ -1,4 +1,5 @@
-﻿using HeartBeat_Project.Hubs;
+﻿using Heartbeat.Repositories;
+using HeartBeat_Project.Hubs;
 using HeartBeat_Project.Models;
 using HeartBeat_Project.Repositories;
 using Microsoft.AspNet.SignalR;
@@ -13,7 +14,7 @@ namespace HeartBeat_Project.Controllers
 
         public HeartBeatController()
         {
-            HeartBeatRepository = new HeartBeatRepository();
+            HeartBeatRepository = new HeartBeatTextRepository();
         }
 
         [HttpPost]
