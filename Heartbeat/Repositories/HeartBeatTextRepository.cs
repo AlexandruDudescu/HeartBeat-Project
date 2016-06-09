@@ -15,7 +15,7 @@ namespace Heartbeat.Repositories
 
         public void AddHeartBeat(HeartBeat heartBeat)
         {
-            using (StreamWriter writetext = new StreamWriter(@"Data.config"))
+            using (StreamWriter writetext = new StreamWriter(@"./Data.config"))
             {
                 writetext.WriteLine(heartBeat.HearBeatRate+"\n"+heartBeat.SampleDate);
                 writetext.Dispose();
@@ -27,7 +27,7 @@ namespace Heartbeat.Repositories
             List<HeartBeat> heartBeatList = null;
             HeartBeat heartBeat = new HeartBeat();
 
-            using (StreamReader readtext = new StreamReader(@"Data.config"))
+            using (StreamReader readtext = new StreamReader(@"./Data.config"))
             {
                 string info = " ";
                 while (info != null)
