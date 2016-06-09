@@ -159,6 +159,7 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="connection.config" />
+    <Content Include="Data.config" />
     <None Include="scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="scripts\jquery-1.6.4.js" />
     <Content Include="scripts\jquery-1.6.4.min.js" />
