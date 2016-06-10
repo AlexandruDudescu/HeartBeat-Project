@@ -1,4 +1,3 @@
-C:\Users\Panda\Documents\Heartbeat\HeartBeatConsoleClient\bin\Debug\HeartBeatConsoleClient.exe.config
 C:\Users\Panda\Documents\Heartbeat\HeartBeatConsoleClient\bin\Debug\ApplicationInsights.config
 C:\Users\Panda\Documents\Heartbeat\HeartBeatConsoleClient\bin\Debug\roslyn\csc.exe
 C:\Users\Panda\Documents\Heartbeat\HeartBeatConsoleClient\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -12,6 +11,7 @@ C:\Users\Panda\Documents\Heartbeat\HeartBeatConsoleClient\bin\Debug\roslyn\Syste
 C:\Users\Panda\Documents\Heartbeat\HeartBeatConsoleClient\bin\Debug\roslyn\vbc.exe
 C:\Users\Panda\Documents\Heartbeat\HeartBeatConsoleClient\bin\Debug\roslyn\VBCSCompiler.exe
 C:\Users\Panda\Documents\Heartbeat\HeartBeatConsoleClient\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Panda\Documents\Heartbeat\HeartBeatConsoleClient\bin\Debug\HeartBeatConsoleClient.exe.config
 C:\Users\Panda\Documents\Heartbeat\HeartBeatConsoleClient\bin\Debug\HeartBeatConsoleClient.exe
 C:\Users\Panda\Documents\Heartbeat\HeartBeatConsoleClient\bin\Debug\HeartBeatConsoleClient.pdb
 C:\Users\Panda\Documents\Heartbeat\HeartBeatConsoleClient\bin\Debug\Heartbeat.dll
