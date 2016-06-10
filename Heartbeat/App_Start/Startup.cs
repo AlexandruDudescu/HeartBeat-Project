@@ -12,6 +12,7 @@ namespace Heartbeat.App_Start
         public void Configuration(IAppBuilder app)
         {
             app.MapSignalR();
+            
         }
     }
 }
