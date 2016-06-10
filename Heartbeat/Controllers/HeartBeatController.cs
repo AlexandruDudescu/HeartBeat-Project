@@ -14,7 +14,7 @@ namespace HeartBeat_Project.Controllers
 
         public HeartBeatController()
         {
-            HeartBeatRepository = new HeartBeatSQLRepository();
+            HeartBeatRepository = new HeartBeatTextRepository();
         }
 
         [HttpPost]
