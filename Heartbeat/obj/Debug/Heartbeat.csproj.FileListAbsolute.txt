@@ -53,7 +53,6 @@ C:\Users\Panda\Documents\Heartbeat\Heartbeat\bin\Newtonsoft.Json.xml
 C:\Users\Panda\Documents\Heartbeat\Heartbeat\bin\System.Net.Http.Formatting.xml
 C:\Users\Panda\Documents\Heartbeat\Heartbeat\bin\System.Web.Http.xml
 C:\Users\Panda\Documents\Heartbeat\Heartbeat\bin\System.Web.Http.WebHost.xml
-C:\Users\Panda\Documents\Heartbeat\Heartbeat\obj\Debug\Heartbeat.Properties.Resources.resources
-C:\Users\Panda\Documents\Heartbeat\Heartbeat\obj\Debug\Heartbeat.csproj.GenerateResource.Cache
 C:\Users\Panda\Documents\Heartbeat\Heartbeat\obj\Debug\Heartbeat.dll
 C:\Users\Panda\Documents\Heartbeat\Heartbeat\obj\Debug\Heartbeat.pdb
+C:\Users\Panda\Documents\Heartbeat\Heartbeat\obj\Debug\Heartbeat.csprojResolveAssemblyReference.cache

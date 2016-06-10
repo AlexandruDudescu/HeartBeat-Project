@@ -155,6 +155,7 @@
     </Content>
     <Content Include="Data.txt" />
     <Content Include="Global.asax" />
+    <Content Include="Hubs.js" />
     <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
@@ -179,6 +180,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\HeartBeatContext.cs" />
     <Compile Include="Repositories\HeartBeatRepository.cs" />
+    <Compile Include="Repositories\HeartBeatSqlRepository.cs" />
     <Compile Include="Repositories\HeartBeatTextRepository.cs" />
     <Compile Include="Repositories\IHeartBeatRepository.cs" />
   </ItemGroup>
